@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Linkedin Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2674e9;
+            margin: 0;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            justify-content:center ;
+            align-items: center;
+            height: 90%;
+        }
+
+        .signup-box {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        form input,
+        form select {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form label {
+            display: block;
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        button {
+            background-color: #0073e6;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+
+        button:hover {
+            background-color: #005bbd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="signup-box">
+            <img src="https://logos-world.net/wp-content/uploads/2020/05/Linkedin-Logo.png" alt height="150">  
+            <h2>Make the most of your professional life</h2><br>
+            <form>
+                <label for="">First Name</label>
+                <input type="text" placeholder="First Name" required>
+                <label for="">Last Name</label>
+                <input type="text" placeholder="Last Name" required>
+                <label for="">Email</label>
+                <input type="email" placeholder="Email" required>
+                <label for="">Password(6 or more characters)</label>
+                <input type="password" placeholder="Password" required>
+                </select>
+                <p>You <b>agree</b> to the Linkedin <b>User Agreement, Privacy Policy,</b>and
+                <b>Cookie Policy.</b></p> 
+                <button type="submit">Agree and Join</button>
+                <p>Already on Linkedin?<a href="">Sign in</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
